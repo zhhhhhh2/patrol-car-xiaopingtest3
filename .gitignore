@@ -1,19 +1,33 @@
-# OS files
-.DS_Store
+# ---- Keil MDK-ARM 编译产物 ----
+Objects/
+Listings/
+DebugConfig/
+MDK-ARM/xiaopingtest/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.htm
+*.build_log.htm
+*.uvguix.*
+JLinkLog.txt
+*.scvd
+
+# ---- 备份 / 临时文件 ----
+*.bak*
+*.tmp
+~$*
+
+# ---- 系统 / 编辑器 ----
 Thumbs.db
 desktop.ini
-
-# Editors
+.DS_Store
 .vscode/
 .idea/
 *.swp
-
-# Logs
-*.log
-
-# Dependency / build output
-node_modules/
-dist/
-build/
-__pycache__/
-*.pyc
